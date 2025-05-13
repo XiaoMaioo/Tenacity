@@ -46,38 +46,39 @@ public class ProtectedLaunch {
         Tenacity.INSTANCE.setModuleCollection(new ModuleCollection());
 
         // Combat
-        modules.put(KillAura.class, new KillAura());
-        modules.put(Velocity.class, new Velocity());
-        modules.put(Criticals.class, new Criticals());
-        modules.put(AutoHead.class, new AutoHead());
-        modules.put(AutoPot.class, new AutoPot());
-        modules.put(FastBow.class, new FastBow());
+//        modules.put(KillAura.class, new KillAura());
+//        modules.put(Velocity.class, new Velocity());
+//        modules.put(Criticals.class, new Criticals());
+//        modules.put(AutoHead.class, new AutoHead());
+//        modules.put(AutoPot.class, new AutoPot());
+//        modules.put(FastBow.class, new FastBow());
         modules.put(KeepSprint.class, new KeepSprint());
+
         modules.put(IdleFighter.class, new IdleFighter());
-        modules.put(SuperKnockback.class, new SuperKnockback());
+//        modules.put(SuperKnockback.class, new SuperKnockback());
         modules.put(TargetManager.class, new TargetManager());
-        modules.put(AutoGapple.class, new AutoGapple());
+//        modules.put(AutoGapple.class, new AutoGapple());
 
         // Exploit
-        modules.put(Disabler.class, new Disabler());
+//        modules.put(Disabler.class, new Disabler());
         modules.put(AntiInvis.class, new AntiInvis());
-        modules.put(Regen.class, new Regen());
-        modules.put(TPAKiller.class, new TPAKiller());
-        modules.put(AntiAura.class, new AntiAura());
+//        modules.put(Regen.class, new Regen());
+//        modules.put(TPAKiller.class, new TPAKiller());
+//        modules.put(AntiAura.class, new AntiAura());
         modules.put(AntiAim.class, new AntiAim());
-        modules.put(ResetVL.class, new ResetVL());
+//        modules.put(ResetVL.class, new ResetVL());
         modules.put(Crasher.class, new Crasher());
 
         // Misc
-        modules.put(AntiDesync.class, new AntiDesync());
-        modules.put(AntiTabComplete.class, new AntiTabComplete());
+//        modules.put(AntiDesync.class, new AntiDesync());
+//        modules.put(AntiTabComplete.class, new AntiTabComplete());
         modules.put(Spammer.class, new Spammer());
-        modules.put(AntiFreeze.class, new AntiFreeze());
-        modules.put(LightningTracker.class, new LightningTracker());
-        modules.put(MurderDetector.class, new MurderDetector());
+//        modules.put(AntiFreeze.class, new AntiFreeze());
+//        modules.put(LightningTracker.class, new LightningTracker());
+//        modules.put(MurderDetector.class, new MurderDetector());
         modules.put(AutoHypixel.class, new AutoHypixel());
         modules.put(NoRotate.class, new NoRotate());
-        modules.put(AutoRespawn.class, new AutoRespawn());
+//        modules.put(AutoRespawn.class, new AutoRespawn());
         modules.put(MCF.class, new MCF());
         modules.put(AutoAuthenticate.class, new AutoAuthenticate());
         modules.put(Killsults.class, new Killsults());
@@ -85,32 +86,32 @@ public class ProtectedLaunch {
 
         // Movement
         modules.put(Sprint.class, new Sprint());
-        modules.put(Scaffold.class, new Scaffold());
+//        modules.put(Scaffold.class, new Scaffold());
         modules.put(Speed.class, new Speed());
-        modules.put(Flight.class, new Flight());
-        modules.put(LongJump.class, new LongJump());
-        modules.put(Step.class, new Step());
-        modules.put(TargetStrafe.class, new TargetStrafe());
-        modules.put(FastLadder.class, new FastLadder());
+//        modules.put(Flight.class, new Flight());
+//        modules.put(LongJump.class, new LongJump());
+//        modules.put(Step.class, new Step());
+//        modules.put(TargetStrafe.class, new TargetStrafe());
+//        modules.put(FastLadder.class, new FastLadder());
         modules.put(InventoryMove.class, new InventoryMove());
-        modules.put(Jesus.class, new Jesus());
-        modules.put(Spider.class, new Spider());
-        modules.put(AutoHeadHitter.class, new AutoHeadHitter());
+//        modules.put(Jesus.class, new Jesus());
+//        modules.put(Spider.class, new Spider());
+//        modules.put(AutoHeadHitter.class, new AutoHeadHitter());
 
         // Player
-        modules.put(ChestStealer.class, new ChestStealer());
-        modules.put(InvManager.class, new InvManager());
+//        modules.put(ChestStealer.class, new ChestStealer());
+//        modules.put(InvManager.class, new InvManager());
         modules.put(AutoArmor.class, new AutoArmor());
-        modules.put(SpeedMine.class, new SpeedMine());
+//        modules.put(SpeedMine.class, new SpeedMine());
         modules.put(Blink.class, new Blink());
-        modules.put(NoFall.class, new NoFall());
-        modules.put(Timer.class, new Timer());
+//        modules.put(NoFall.class, new NoFall());
+//        modules.put(Timer.class, new Timer());
         modules.put(Freecam.class, new Freecam());
-        modules.put(FastPlace.class, new FastPlace());
-        modules.put(SafeWalk.class, new SafeWalk());
-        modules.put(NoSlow.class, new NoSlow());
+//        modules.put(FastPlace.class, new FastPlace());
+//        modules.put(SafeWalk.class, new SafeWalk());
+//        modules.put(NoSlow.class, new NoSlow());
         modules.put(AutoTool.class, new AutoTool());
-        modules.put(AntiVoid.class, new AntiVoid());
+//        modules.put(AntiVoid.class, new AntiVoid());
         modules.put(KillEffects.class, new KillEffects());
 
         // Render
